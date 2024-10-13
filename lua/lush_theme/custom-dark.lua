@@ -290,6 +290,7 @@ local theme = lush(function(injected_functions)
     sym"@field"                { Identifier }, -- Identifier
     sym"@property"             { Identifier }, -- Identifier
     sym"@property.scss"        { fg=blue }, -- Identifier
+    sym"@repeat"               { Repeat }, -- Repeat
     sym"@constructor"          { fg=orange }, -- Special
     sym"@conditional"          { fg=blue }, -- Conditional
     -- sym"@repeat"            { }, -- Repeat
